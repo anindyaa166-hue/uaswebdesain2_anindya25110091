@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gimdu — Shusi Kaki Lima Pekanbaru</title>
+<meta name="description" content="Gimdu, gimbab kaki lima harga mulai Rp2.000 di Pekanbaru. Dekat UNRI Gobah, buka tiap hari 15.00–21.00 WIB.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg navbar-gimdu sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <svg class="logo-mark" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="20" cy="20" r="19" fill="#2F4A38"/>
+        <circle cx="20" cy="20" r="12" fill="#FFF8EC"/>
+        <circle cx="20" cy="20" r="5" fill="#E8602C"/>
+      </svg>
+      Gimdu
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMain" aria-label="Buka menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMain">
+      <ul class="navbar-nav ml-auto align-items-lg-center">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">Tentang</a></li>
+        <li class="nav-item"><a class="nav-link" href="produk.html">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="galeri.html">Galeri</a></li>
+        <li class="nav-item"><a class="nav-link" href="testimoni.html">Testimoni</a></li>
+        <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+        <li class="nav-item ml-lg-3">
+          <a class="btn-wa" href="https://wa.me/6281234567890" target="_blank" rel="noopener">
+            Order via WA
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header class="hero">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <span class="eyebrow">Shusi Kaki Lima · Pekanbaru</span>
+        <h1 class="hero-title mt-2 mb-3">Gimbab kaki lima,<br><span class="hero-tagline">rasa sultan</span> harga kaki lima.</h1>
+        <p class="lead" style="color:var(--ink-soft)">
+          Gimdu jual gimbab &amp; sushi roll ala jajanan kaki lima mulai dari Rp2.000 per potong.
+          Cocok buat ngemil santai, nongkrong bareng temen kampus, atau makan malam hemat.
+        </p>
+        <div class="d-flex flex-wrap align-items-center" style="gap:.9rem">
+          <a href="produk.html" class="btn btn-ember">Lihat Menu</a>
+          <a href="kontak.html" class="btn btn-outline-nori">Cek Lokasi</a>
+        </div>
+        <div class="d-flex flex-wrap mt-4" style="gap:1.6rem">
+          <div><span class="mono font-weight-bold" style="font-size:1.4rem">1000+</span><br><small style="color:var(--ink-soft)">Pengikut Instagram</small></div>
+          <div><span class="mono font-weight-bold" style="font-size:1.4rem">2</span><br><small style="color:var(--ink-soft)">Titik jualan tiap hari</small></div>
+          <div><span class="mono font-weight-bold" style="font-size:1.4rem">2K</span><br><small style="color:var(--ink-soft)">Harga mulai per potong</small></div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 mt-5 mt-lg-0">
+        <div class="hero-board">
+          <div class="plate plate-1">🍙</div>
+          <div class="plate plate-2">🍣</div>
+          <div class="plate plate-3">🥢</div>
+          <div class="plate plate-4">🌶️</div>
+          <div class="sticker sticker-ember" style="position:absolute; top:44%; left:2%;">
+            <span class="small">Mulai</span><span class="big">2K</span>
+          </div>
+          <div class="tape" style="top:2%; left:38%;">BUKA 15.00–21.00</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<hr class="divider-ticket">
+
+<!-- ================= HERO CAROUSEL (fitur JS wajib #1) ================= -->
+<section class="section-tight">
+  <div class="container">
+    <div class="text-center mb-4">
+      <span class="eyebrow">Galeri Dagangan</span>
+      <h2 class="mt-2">Jajanan yang lagi jalan tiap sore</h2>
+    </div>
+    <div id="galeriCarousel" class="carousel slide" data-ride="carousel" data-interval="3500">
+      <div class="carousel-inner rounded" style="border-radius:var(--radius); overflow:hidden;">
+        <div class="carousel-item active">
+          <img src="img/gimbap.jpeg" classalt="">
+            <div class="text-center">
+              <div style="font-size:4rem">🍙🍙🍙</div>
+              <p class="mono mt-2 mb-0">Gimbab Klasik — rapi berjejer siap dijual</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex align-items-center justify-content-center" style="height:320px; background:#f6c9c0;">
+            <div class="text-center">
+              <div style="font-size:4rem">🍣🌶️</div>
+              <p class="mono mt-2 mb-0">Gimbab Saus Pedas — favorit anak kos</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex align-items-center justify-content-center" style="height:320px; background:#d9e6cf;">
+            <div class="text-center">
+              <div style="font-size:4rem">🧀🍙</div>
+              <p class="mono mt-2 mb-0">Gimbab Keju Mentai — best seller</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex align-items-center justify-content-center" style="height:320px; background:#f4dfa8;">
+            <div class="text-center">
+              <div style="font-size:4rem">📦🍱</div>
+              <p class="mono mt-2 mb-0">Dikemas rapi, siap dibawa pulang</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#galeriCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#galeriCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= KENAPA PILIH GIMDU ================= -->
+<section class="section bg-cream-2">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="eyebrow">Kenapa Gimdu</span>
+      <h2 class="mt-2">Jajan enak nggak harus mahal</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-6 mb-4">
+        <div class="feature-chip">
+          <div class="icon-circ">💸</div>
+          <h4 style="font-size:1.1rem">Harga Ramah Kantong</h4>
+          <p style="color:var(--ink-soft); font-size:.92rem;">Mulai Rp2.000 per potong, cocok buat harian.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-6 mb-4">
+        <div class="feature-chip">
+          <div class="icon-circ">📍</div>
+          <h4 style="font-size:1.1rem">Dekat Kampus</h4>
+          <p style="color:var(--ink-soft); font-size:.92rem;">Lokasi samping UNRI Gobah, gampang dijangkau.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-6 mb-4">
+        <div class="feature-chip">
+          <div class="icon-circ">🕒</div>
+          <h4 style="font-size:1.1rem">Buka Tiap Hari</h4>
+          <p style="color:var(--ink-soft); font-size:.92rem;">Senin–Minggu, jam 15.00–21.00 WIB.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-6 mb-4">
+        <div class="feature-chip">
+          <div class="icon-circ">🧊</div>
+          <h4 style="font-size:1.1rem">Selalu Fresh</h4>
+          <p style="color:var(--ink-soft); font-size:.92rem;">Dibuat &amp; dikemas menjelang jam buka.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PRODUK FAVORIT ================= -->
+<section class="section">
+  <div class="container">
+    <div class="d-flex flex-wrap justify-content-between align-items-end mb-4">
+      <div>
+        <span class="eyebrow">Menu Favorit</span>
+        <h2 class="mt-2 mb-0">Paling sering diborong</h2>
+      </div>
+      <a href="produk.html" class="btn btn-outline-nori mt-3 mt-md-0">Lihat Semua Menu</a>
+    </div>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card-ticket">
+          <div class="card-body text-center">
+            <div class="rounded-photo-placeholder mx-auto mb-3" style="width:90px;height:90px;background:#fce6c9;">🍙</div>
+            <h4 style="font-size:1.15rem">Gimbab Klasik</h4>
+            <p style="color:var(--ink-soft); font-size:.9rem;">Isian sayur &amp; telur, dibalut nori renyah.</p>
+            <span class="sticker-flat">Rp2.000 / pcs</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card-ticket">
+          <div class="card-body text-center">
+            <div class="rounded-photo-placeholder mx-auto mb-3" style="width:90px;height:90px;background:#f6c9c0;">🌶️</div>
+            <h4 style="font-size:1.15rem">Gimbab Saus Pedas</h4>
+            <p style="color:var(--ink-soft); font-size:.9rem;">Siraman saus pedas manis, favorit anak kos.</p>
+            <span class="sticker-flat">Rp3.000 / pcs</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card-ticket">
+          <div class="card-body text-center">
+            <div class="rounded-photo-placeholder mx-auto mb-3" style="width:90px;height:90px;background:#f4dfa8;">🧀</div>
+            <h4 style="font-size:1.15rem">Gimbab Keju Mentai</h4>
+            <p style="color:var(--ink-soft); font-size:.9rem;">Topping keju parut &amp; saus mentai gurih.</p>
+            <span class="sticker-flat">Rp5.000 / pcs</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TESTIMONI ================= -->
+<section class="section bg-nori">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="eyebrow" style="color:var(--gold)">Kata Pelanggan</span>
+      <h2 class="mt-2">Dari feed Instagram @gimd.u</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="testi-card">"Murah tapi rasanya nggak murahan, jadi langganan tiap pulang kuliah."</div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="testi-card">"Deket banget dari UNRI, jajan sore-sore paling pas ke sini."</div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="testi-card">"Varian saus pedasnya juara, sekali coba langsung nagih."</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LOKASI & JAM ================= -->
+<section class="section">
+  <div class="container">
+    <div class="row align-items-stretch">
+      <div class="col-lg-6 mb-4">
+        <div class="signage h-100">
+          <span class="eyebrow" style="color:var(--gold)">Jam Buka</span>
+          <h3 class="mt-2 mb-3">Papan Jadwal Gimdu</h3>
+          <div class="hours-row"><span>Senin – Minggu</span><span>15.00 – 21.00 WIB</span></div>
+          <p class="mt-3 mb-0" style="opacity:.85; font-size:.9rem;">Buka tiap hari tanpa libur. Datang lebih awal biar nggak kehabisan varian favorit.</p>
+        </div>
+      </div>
+      <div class="col-lg-6 mb-4">
+        <div class="feature-chip h-100">
+          <span class="eyebrow">Dua Titik Jualan</span>
+          <h3 class="mt-2 mb-3" style="font-size:1.4rem">Cari Gimdu Terdekat</h3>
+          <p class="mb-2"><strong>Siang–sore:</strong> Jl. WR Supratman, Samping UNRI Gobah, Pekanbaru</p>
+          <p class="mb-0"><strong>Malam:</strong> Jl. Cut Nyak Dien, Pekanbaru</p>
+          <a href="kontak.html" class="btn btn-ember mt-3">Lihat Peta Lengkap</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="footer-brand mb-2">Gimdu</div>
+        <p style="opacity:.75; font-size:.9rem;">Shusi kaki lima Pekanbaru. Harga mulai Rp2.000, buka tiap hari 15.00–21.00 WIB.</p>
+        <a href="https://instagram.com/gimd.u" target="_blank" rel="noopener" class="badge-gimdu">@gimd.u</a>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h5 style="color:#fff; font-size:1rem;">Navigasi</h5>
+        <ul class="list-unstyled" style="font-size:.9rem;">
+          <li class="mb-2"><a href="index.html">Beranda</a></li>
+          <li class="mb-2"><a href="about.html">Tentang Kami</a></li>
+          <li class="mb-2"><a href="produk.html">Menu</a></li>
+                    <li class="mb-2"><a href="galeri.html">Galeri</a></li>
+          <li class="mb-2"><a href="testimoni.html">Testimoni</a></li>
+<li class="mb-2"><a href="kontak.html">Kontak</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h5 style="color:#fff; font-size:1rem;">Kontak Cepat</h5>
+        <p style="font-size:.9rem; opacity:.85;">WhatsApp: 0812-3456-7890</p>
+        <a href="https://wa.me/6281234567890" target="_blank" rel="noopener" class="btn-wa">Order via WA</a>
+      </div>
+    </div>
+    <hr style="border-color:rgba(255,255,255,.15)">
+    <p class="text-center mb-0" style="font-size:.8rem; opacity:.6;">
+      © 2026 Gimdu — Website ini dibuat sebagai project UAS Web Desain 2, AMIK Mahaputra Riau.
+    </p>
+  </div>
+</footer>
+
+<button id="backToTop" aria-label="Kembali ke atas">↑</button>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
